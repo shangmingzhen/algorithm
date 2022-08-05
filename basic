@@ -1,3 +1,5 @@
 一. char
 1. 作为引用类型的泛型，需要声明为Character
 2. char 比较用 单引号''
+二. 整数取随机数
+new Random().nextInt(nums.size())
