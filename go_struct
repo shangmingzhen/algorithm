@@ -1,0 +1,14 @@
+1. go 可以直接用的函数
+import (
+	"sort"
+)
+
+排序 sort.Inst(nums)
+strings.Builder{}
+byteArray := []byte(str)/str := string(byteArray)
+runes := []rune(str) // 转换为 rune 切片
+str := string(runes) // 转换为 string
+
+2. 创建操作
+// 二维slice
+res := make([][]int,0)
