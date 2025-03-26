@@ -34,5 +34,10 @@ res := make([][]int,0)
 4. 字符串拼接
 go 字符串拼接用+ 号
 
-5. ***type task func()
-
+5. 定义： ***type task func()
+  赋值：带参数的闭包
+	createTask := func(id int) task {
+		return func() {
+			fmt.Printf("执行任务：任务 ID = %d\n", id)
+		}
+	}
